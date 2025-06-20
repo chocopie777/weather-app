@@ -13,7 +13,7 @@ const coordinates = ref({});
 async function getСoordinates() {
   emit('updateIsLoading', true);
   try {
-    const geoData = await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${city.value}&appid=${import.meta.env.VITE_API_KEY}`);
+    const geoData = await axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${city.value}&appid=${import.meta.env.VITE_API_KEY}`);
     coordinates.value = {
       lat: geoData.data[0].lat,
       lon: geoData.data[0].lon,
