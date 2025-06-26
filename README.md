@@ -8,7 +8,7 @@
 ![Демо проекта](demo.gif)  
 ## 🛠 Технологии  
 - **Frontend**: Vue 3, Tailwind, Axios, Vite
-- **Backend**: REST API https://openweathermap.org (Current weather API, 3-hour forecast for 5 days API)
+- **Backend**: API https://openweathermap.org (Current weather API, 3-hour forecast for 5 days API)
 - **Deploy**: Vercel  
 
 ## ⚡️ Функционал 
