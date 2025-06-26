@@ -1,49 +1,31 @@
-# weather-app
+# Weather-App
 
-Приложение Погода.
+Проект представляет собой веб-приложение по отображению погоды в выбранном населенном пункте.
+#### <u>Ссылка на приложение:</u> https://weather-app-lime-mu-62.vercel.app/
+## 🚀 Демо 
+*Пример работы приложения* 
+![Демо проекта](demo.gif)  
+## 🛠 Технологии  
+- **Frontend**: Vue 3, Tailwind, Axios, Vite
+- **Backend**: REST API https://openweathermap.org (Current weather API, 3-hour forecast for 5 days API)
+- **Deploy**: Vercel  
 
-Функциональность:
+## ⚡️ Функционал 
+✅ Погода по Geolocation API (WEB API)
 
--Темная/светлая тема
+✅ Погода по названию населенного пункта
 
--Погода по текущему местоположению WEB API GEO
+✅ Сохранение последнего населенного пункта в Localstorage
 
--Погода по названию города
+✅ Темная/светлая тема
 
--Сохранение последней выбранной темы в Localstorage
+✅ Сохранение последней темы в Localstorage
 
--Сохранение последних координат в Localstorage
+## 🚀 Установка  
+### Cоздать .env файл по примеру .env.example который есть в структуре проекта и внести туда api key из https://openweathermap.org (Current weather API, 3-hour forecast for 5 days API)
+```bash
+git clone https://github.com/chocopie777/weather-app.git
 
--Погода OpenWeatherMap FREE API (Current weather API, 3-hour forecast for 5 days API)
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
